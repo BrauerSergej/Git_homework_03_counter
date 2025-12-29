@@ -23,4 +23,48 @@ button {
 
 #root {
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(153, 60, 148);
+  
+ 
+}
+.counter_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+  gap: 20px;
+}
+.counter {
+  width: 350px;
+  height: 50px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color:rgb(243, 200, 241) ;
+  font-size: 18px;
+
+}
+.btn_container{
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+.increase_btn,
+.decrease_btn{
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgb(153, 60, 148);
+  font-size: 18px;
+  color: white;
 }
