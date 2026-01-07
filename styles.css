@@ -27,10 +27,9 @@ button {
   justify-content: center;
   align-items: center;
   background-color: rgb(153, 60, 148);
-  
- 
 }
-.counter_form{
+
+.counter_form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,26 +41,37 @@ button {
   background-color: white;
   gap: 20px;
 }
+
 .counter {
+  display: flex;
+  align-items: center;
   width: 350px;
   height: 50px;
   outline: none;
   border: 1px solid black;
   border-radius: 8px;
-  background-color:rgb(243, 200, 241) ;
+  background-color: rgb(243, 200, 241);
   font-size: 18px;
-  padding-left: 70px;
-  padding-top: 15px;
-
 }
-.btn_container{
+
+.counter_label {
+  margin-right: 5px;
+}
+
+.counter_value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn_container {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   width: 350px;
 }
+
 .increase_btn,
-.decrease_btn{
+.decrease_btn {
   width: 350px;
   height: 50px;
   cursor: pointer;
